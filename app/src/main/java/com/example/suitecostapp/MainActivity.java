@@ -27,7 +27,7 @@ public class MainActivity extends AppCompatActivity {
 
         if (findPossibility(BALANCE, cost)) {
             possibilityOutView.setText("Средств достаточно для покупки");
-            changeOutView.setText("Сдача - " + countChange(BALANCE, cost) + " серебрянных монет");
+            changeOutView.setText("Останется " + countChange(BALANCE, cost) + " серебрянных монет");
         }
         else {
             possibilityOutView.setText("Средств недостаточно для покупки");
